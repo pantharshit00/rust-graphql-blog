@@ -1,0 +1,14 @@
+[package]
+name = "test_crud_graphql_rust"
+version = "0.1.0"
+authors = ["Harshit Pant <pantharshit00@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-graphql = "1.14.10"
+async-graphql-tide = "1.14.10"
+tide = "0.9"
+async-std = { version = "1.6.0", features = ["attributes"] }
+sqlx = { version = "0.3.5", features = ["postgres"] }
